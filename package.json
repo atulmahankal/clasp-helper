@@ -1,0 +1,19 @@
+{
+  "name": "clasp-helper",
+  "version": "1.0.0",
+  "description": "Sync local google app scripts",
+  "bin": {
+    "clasp-helper": "bin/index.js"
+  },
+  "scripts": {
+    "postinstall": "npx clasp-helper reinitgit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clasp": "^1.0.0",
+    "commander": "^12.0.0",
+    "figlet": "^1.7.0"
+  }
+}
