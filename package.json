@@ -5,9 +5,6 @@
   "bin": {
     "clasp-helper": "bin/index.js"
   },
-  "scripts": {
-    "postinstall": "npx clasp-helper reinitgit"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
